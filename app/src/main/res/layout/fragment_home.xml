@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bgColor2"
+    android:paddingBottom="@dimen/margin_50">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bgColor2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/viewHomeList"
+            android:layout_marginTop="@dimen/margin_5">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_250"
+                android:src="@drawable/promo_sider"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/viewHomeList"
+            android:layout_marginTop="@dimen/margin_15">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtKet1Home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jadwal Hari Ini"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/font_16"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_15"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_marginBottom="@dimen/margin_10"
+                    android:textAllCaps="false"/>
+
+                <include
+                    android:id="@+id/layoutListHariIni1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/fragment_listservice_home"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_15"
+                    android:layout_marginBottom="@dimen/margin_5"
+                    android:layout_below="@+id/txtKet1Home"/>
+
+                <include
+                    android:id="@+id/layoutListHariIni2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/fragment_listservice_home"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_15"
+                    android:layout_marginBottom="@dimen/margin_5"
+                    android:layout_below="@+id/layoutListHariIni1"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layoutListHariIni2"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txtTampilkanSemuaHariIniListHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tampilkan semua"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/font_12"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/layoutListHariIni3"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/width_20"
+                        android:layout_height="@dimen/height_20"
+                        android:src="@drawable/arrow_drop_down_white"/>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/viewHomeList"
+            android:layout_marginTop="@dimen/margin_15"
+            android:layout_marginBottom="@dimen/margin_5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginLeft="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_15">
+
+                <TextView
+                    android:id="@+id/txtKet2HomeServisPopuler"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Service Populer"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/font_16"
+                    android:layout_marginBottom="@dimen/margin_10"
+                    android:textAllCaps="false"/>
+
+                <TextView
+                    android:id="@+id/txtViewAll2HomeServisPopuler"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="View all"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/font_16"
+                    android:layout_marginBottom="@dimen/margin_10"
+                    android:textAllCaps="false"
+                    android:gravity="right" />
+
+                <ImageView
+                    android:layout_width="@dimen/width_20"
+                    android:layout_height="@dimen/height_20"
+                    android:src="@drawable/arrow_drop_down_white_right"/>
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/horizontal_recycler_view"
+                android:background="@color/bgColor2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_250" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/viewHomeList"
+            android:layout_marginTop="@dimen/margin_15"
+            android:layout_marginBottom="@dimen/margin_5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginLeft="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_15">
+
+                <TextView
+                    android:id="@+id/txtKet2HomePromoteServis"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Promote Servis"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/font_16"
+                    android:layout_marginBottom="@dimen/margin_10"
+                    android:textAllCaps="false"/>
+
+                <TextView
+                    android:id="@+id/txtViewAll2HomePromoteServis"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="View all"
+                    android:textColor="@color/colorPrimaryWhite"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/font_16"
+                    android:layout_marginBottom="@dimen/margin_10"
+                    android:textAllCaps="false"
+                    android:gravity="right" />
+
+                <ImageView
+                    android:layout_width="@dimen/width_20"
+                    android:layout_height="@dimen/height_20"
+                    android:src="@drawable/arrow_drop_down_white_right"/>
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/horizontalRecyclerViewServisPopuler"
+                android:background="@color/bgColor2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_250" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginRight="@dimen/margin_15"
+            android:layout_marginTop="@dimen/margin_15"
+            android:layout_marginBottom="@dimen/margin_5"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp"
+            android:layout_below="@+id/txtKet3Home"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_200"
+                android:elevation="3dp"
+                android:src="@drawable/promo_sider"
+                android:scaleType="centerCrop"/>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

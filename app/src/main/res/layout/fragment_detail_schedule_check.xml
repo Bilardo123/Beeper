@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryWhiteGray"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="2dp">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="12"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginRight="@dimen/margin_15"
+            >
+
+            <TextView
+                android:id="@+id/txtJam01DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="00"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_gray"
+                android:textSize="@dimen/font_14"
+                android:textColor="@color/colorPrimaryWhite"/>
+
+            <TextView
+                android:id="@+id/txtJam02DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="01"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_gray"
+                android:textSize="@dimen/font_14"
+                android:textColor="@color/colorPrimaryWhite"/>
+
+            <TextView
+                android:id="@+id/txtJam03DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="02"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_green"
+                android:drawableTop="@drawable/icon_button_red_top"
+                android:paddingTop="@dimen/padding_5"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam04DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="03"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_green"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam05DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="04"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_red"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam06DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="05"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_red"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam07DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="06"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_purple"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam08DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="07"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_purple"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam09DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="08"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_purple"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam10DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="09"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_gray"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam11DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="10"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_gray"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam12DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="11"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_gray"
+                android:textSize="@dimen/font_14"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="12"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginRight="@dimen/margin_15"
+            >
+
+            <TextView
+                android:id="@+id/txtJam13DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="12"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_gray"
+                android:textSize="@dimen/font_14"
+                android:textColor="@color/colorPrimaryWhite"/>
+
+            <TextView
+                android:id="@+id/txtJam14DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="13"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:background="@drawable/button_gray"
+                android:textSize="@dimen/font_14"
+                android:textColor="@color/colorPrimaryWhite"/>
+
+            <TextView
+                android:id="@+id/txtJam15DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="14"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_green"
+                android:drawableTop="@drawable/icon_button_red_top"
+                android:paddingTop="@dimen/padding_5"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam16DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="15"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_green"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam17DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="16"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_red"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam18DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="17"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_red"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam19DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="18"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_purple"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam20DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="19"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_purple"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam21DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="20"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_purple"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam22DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="21"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_gray"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam23DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="22"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_gray"
+                android:textSize="@dimen/font_14"/>
+
+            <TextView
+                android:id="@+id/txtJam24DetailScheduleCheck"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_50"
+                android:layout_weight="1"
+                android:text="23"
+                android:gravity="center|bottom"
+                android:layout_margin="1dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:background="@drawable/button_gray"
+                android:textSize="@dimen/font_14"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informasi mengenai servis"
+            android:textSize="@dimen/font_10"
+            android:textColor="@color/colorPrimaryShadow"
+            android:layout_marginTop="@dimen/margin_15"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginRight="@dimen/margin_15"
+            android:layout_marginBottom="2dp" />
+
+        <EditText
+            android:id="@+id/edittxtInformasiServisDetailScheduleCheck"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_120"
+            android:background="@drawable/edittext_rounded2"
+            android:hint="Ceritakan mengenai kondisi anda membutuhkan servis ini."
+            android:textSize="@dimen/font_12"
+            android:textColor="@color/textColorHome"
+            android:textColorHint="@color/colorPrimaryGray"
+            android:padding="10dp"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginRight="@dimen/margin_15"
+            android:layout_marginBottom="@dimen/margin_15"
+            android:gravity="left|top" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginRight="@dimen/margin_15">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/margin_10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Waktu mulai servis"
+                    android:textSize="@dimen/font_10"
+                    android:textColor="@color/colorPrimaryShadow"
+                    android:layout_marginBottom="2dp" />
+
+                <EditText
+                    android:id="@+id/edittxtWaktuMulaiServisDetailScheduleCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_rounded2"
+                    android:hint="15:00"
+                    android:textSize="@dimen/font_14"
+                    android:textColor="@color/textColorHome"
+                    android:textColorHint="@color/colorPrimaryGray"
+                    android:padding="@dimen/padding_10"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/margin_15" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Estimasi servis berakhir"
+                    android:textSize="@dimen/font_10"
+                    android:textColor="@color/colorPrimaryShadow"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:id="@+id/edittxtWaktuMulaiServisDetailScheduleCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_gray"
+                    android:text="21:00"
+                    android:textSize="@dimen/font_14"
+                    android:textColor="@color/textColorHome"
+                    android:padding="@dimen/padding_10"
+                    android:gravity="center"
+                    android:enabled="false"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBuatTransaksiDetailScheduleCheck"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_45"
+            android:text="Buat Transaksi"
+            android:background="@drawable/button_purple"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/font_14"
+            android:layout_marginTop="@dimen/margin_25"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginRight="@dimen/margin_15"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:textAllCaps="false"
+            android:paddingRight="5dp"
+            android:elevation="2dp"
+            android:stateListAnimator="@drawable/button_shadow"
+            android:drawableRight="@drawable/icon_button_green"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

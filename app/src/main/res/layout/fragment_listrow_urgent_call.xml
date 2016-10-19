@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bgColor2"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/chkBoxListrowUrgentCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtTItleServiceListrowUrgentCall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karate"
+                android:textColor="@color/textColorHome"
+                android:padding="@dimen/padding_5"
+                android:textSize="@dimen/font_16"
+                android:textAllCaps="true"
+                android:gravity="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_5"
+                android:background="@color/colorPrimaryGrayLight"
+                android:layout_marginTop="@dimen/margin_5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/imgServiceListrowUrgentCall"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/height_100"
+                    android:layout_weight="1.2"
+                    android:layout_margin="@dimen/margin_5"
+                    android:src="@drawable/service_noimage" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:layout_marginBottom="@dimen/margin_5"
+                    android:layout_marginRight="@dimen/margin_5"
+                    android:layout_marginLeft="@dimen/width_5">
+
+                    <TextView
+                        android:id="@+id/txtNamaSiderListrowUrgentCall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sumano"
+                        android:textColor="@color/textColorHome"
+                        android:textSize="@dimen/font_12"
+                        android:paddingTop="@dimen/padding_7"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"/>
+
+                    <TextView
+                        android:id="@+id/txtHargaServiceListrowUrgentCall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp. 100.000.000"
+                        android:textColor="@color/textColor3"
+                        android:textSize="@dimen/font_12"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:layout_marginBottom="@dimen/margin_5"
+                        android:textAllCaps="false"/>
+
+                    <TextView
+                        android:id="@+id/txtLevelSiderListrowUrgentCall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Expert"
+                        android:textColor="@color/textColor3"
+                        android:textSize="@dimen/font_12"
+                        android:layout_marginBottom="@dimen/margin_5"
+                        android:textAllCaps="true"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RatingBar
+                            android:id="@+id/ratingBarServiceListrowUrgentCall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/height_20"
+                            android:numStars="5"
+                            android:rating="4.5"
+                            android:progressBackgroundTint="@color/bgColor"
+                            style="?android:attr/ratingBarStyleSmall"/>
+
+                        <ImageView
+                            android:layout_width="@dimen/width_15"
+                            android:layout_height="@dimen/height_15"
+                            android:src="@drawable/user2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"/>
+
+                        <TextView
+                            android:id="@+id/txtFollowerListrowUrgentCall"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="10"
+                            android:textSize="@dimen/font_12"
+                            android:textColor="@color/textColorHome"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:gravity="left|center"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+

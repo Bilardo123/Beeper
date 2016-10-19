@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edittxtKeywordSearchFilterFavorit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8"
+            android:background="@drawable/edittext_rounded2"
+            android:hint="Servis apakah yang anda butuhkan"
+            android:textSize="@dimen/font_14"
+            android:textColor="@color/edittextColor"
+            android:inputType=""
+            android:textColorHint="@color/colorPrimaryGray"
+            android:padding="10dp"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:gravity="center"
+            android:imeOptions="actionSearch" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listSearchFavoritHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:divider="@color/bgColor2"
+        android:dividerHeight="@dimen/margin_10" />
+
+    <LinearLayout
+        android:id="@+id/layoutGagalSearchFavoritHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/width_70"
+            android:layout_height="@dimen/height_70"
+            android:src="@drawable/gold_member"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pencarian tidak berhasil"
+            android:textSize="@dimen/font_14"
+            android:textColor="@color/colorPrimaryWhite"
+            android:layout_marginTop="@dimen/margin_20"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/searchfavoritgagal"
+            android:textSize="@dimen/font_10"
+            android:textColor="@color/colorPrimaryWhite"
+            android:layout_marginTop="@dimen/margin_20"
+            android:gravity="center"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabKategoriSearchFavoritHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_55"
+            app:backgroundTint="@color/bgColor"
+            android:src="@drawable/icon_kategori"/>
+
+    </LinearLayout>
+
+</LinearLayout>

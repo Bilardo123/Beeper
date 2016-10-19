@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    cardview:cardElevation="2dp"
+    cardview:cardCornerRadius="0dp">
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:id="@+id/layoutFooter1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_50"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@color/bgColor"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgFooter1"
+                android:layout_width="@dimen/width_25"
+                android:layout_height="@dimen/height_25"
+                android:src="@drawable/house_white_unclicked"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutFooter2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_50"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@color/bgColor"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgFooter2"
+                android:layout_width="@dimen/width_25"
+                android:layout_height="@dimen/height_25"
+                android:src="@drawable/favorit_unclicked"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutFooter3"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_50"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@color/bgColor"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgFooter3"
+                android:layout_width="@dimen/width_25"
+                android:layout_height="@dimen/height_25"
+                android:src="@drawable/urgent_call"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutFooter4"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_50"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@color/bgColor"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgFooter4"
+                android:layout_width="@dimen/width_25"
+                android:layout_height="@dimen/height_25"
+                android:src="@drawable/notifikasi_white_unclicked"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutFooter5"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height_50"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@color/bgColor"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgFooter5"
+                android:layout_width="@dimen/width_25"
+                android:layout_height="@dimen/height_25"
+                android:src="@drawable/order_list_white_unclicked"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

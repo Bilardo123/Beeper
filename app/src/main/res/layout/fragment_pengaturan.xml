@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation="3dp">
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryWhite">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_half_rounded"
+                android:text="Pengaturan"
+                android:textSize="@dimen/font_22"
+                android:textColor="@color/textColorHome"
+                android:padding="@dimen/padding_10"
+                android:gravity="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_5"
+                android:background="@color/line"
+                android:layout_marginTop="@dimen/margin_5"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_30"
+                android:layout_marginRight="@dimen/margin_30"
+                android:layout_marginTop="@dimen/margin_30">
+
+                <TextView
+                    android:id="@+id/txtPengaturanNotifikasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pengaturan Notifikasi"
+                    android:textSize="@dimen/font_14"
+                    android:textColor="@color/textColorHome"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:padding="@dimen/padding_5"/>
+
+                <ImageView
+                    android:layout_width="@dimen/width_25"
+                    android:layout_height="@dimen/height_25"
+                    android:src="@drawable/pengaturan_notif"
+                    android:layout_alignParentTop="true"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:background="@color/line2"
+                android:layout_marginLeft="@dimen/margin_30"
+                android:layout_marginRight="@dimen/margin_30"
+                android:layout_marginTop="@dimen/margin_5"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_30"
+                android:layout_marginRight="@dimen/margin_30"
+                android:layout_marginTop="@dimen/margin_5">
+
+                <TextView
+                    android:id="@+id/txtPengaturanCreditCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Atur Credit Card"
+                    android:textSize="@dimen/font_14"
+                    android:textColor="@color/textColorHome"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:padding="@dimen/padding_5"/>
+
+                <ImageView
+                    android:layout_width="@dimen/width_25"
+                    android:layout_height="@dimen/height_25"
+                    android:src="@drawable/icon_creditcard_pengaturan"
+                    android:layout_alignParentTop="true"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:background="@color/line2"
+                android:layout_marginLeft="@dimen/margin_30"
+                android:layout_marginRight="@dimen/margin_30"
+                android:layout_marginTop="@dimen/margin_5"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/margin_100">
+
+                <TextView
+                    android:id="@+id/txtFaq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FAQ's"
+                    android:textSize="@dimen/font_14"
+                    android:background="@drawable/button_white"
+                    android:textColor="@color/textColorHome"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+                    android:padding="@dimen/padding_10"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="@color/line2"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+                    />
+
+                <TextView
+                    android:id="@+id/txtKetentuanLayanan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ketentuan Layanan"
+                    android:textSize="@dimen/font_14"
+                    android:background="@drawable/button_white"
+                    android:textColor="@color/textColorHome"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+                    android:padding="@dimen/padding_10"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="@color/line2"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+                    />
+
+                <TextView
+                    android:id="@+id/txtTentangKami"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang Kami"
+                    android:textSize="@dimen/font_14"
+                    android:background="@drawable/button_white"
+                    android:textColor="@color/textColorHome"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+                    android:padding="@dimen/padding_10"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="@color/line2"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+                    />
+
+                <TextView
+                    android:id="@+id/txtKebijakanPribadi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kebijakan Pribadi"
+                    android:textSize="@dimen/font_14"
+                    android:background="@drawable/button_white"
+                    android:textColor="@color/textColorHome"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+                    android:padding="@dimen/padding_10"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="@color/line2"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+                    />
+
+                <TextView
+                    android:id="@+id/txtKeluar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Keluar"
+                    android:textSize="@dimen/font_14"
+                    android:background="@drawable/button_white"
+                    android:textColor="@color/textColorHome"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+                    android:padding="@dimen/padding_10"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="@color/line2"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="bottom"
+                    android:layout_marginTop="@dimen/margin_20">
+
+                    <TextView
+                        android:id="@+id/txtVersionPengaturan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/version_app"
+                        android:textSize="@dimen/font_10"
+                        android:textColor="@color/textColorHome"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="@dimen/margin_15"
+                        android:layout_marginLeft="@dimen/margin_30"
+                        android:layout_marginRight="@dimen/margin_30"
+                        android:padding="@dimen/padding_10"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</android.support.v7.widget.CardView>

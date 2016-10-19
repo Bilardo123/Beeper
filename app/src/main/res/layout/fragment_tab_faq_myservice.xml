@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_5"
+        android:background="@color/base30"
+        android:layout_marginTop="@dimen/margin_5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAQs"
+        android:textSize="@dimen/font_16"
+        android:textColor="@color/textColorHome"
+        android:padding="@dimen/padding_5"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/base30"
+        android:layout_marginTop="@dimen/margin_5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Area untuk berdiskusi dan bertanya \n dan mendapatkan penjelasan \n mengenai servis yang diberikan oleh Sider"
+        android:textSize="@dimen/font_14"
+        android:textColor="@color/textColorHome"
+        android:padding="@dimen/padding_5"
+        android:layout_marginTop="@dimen/margin_20"
+        android:gravity="center"/>
+
+</LinearLayout>

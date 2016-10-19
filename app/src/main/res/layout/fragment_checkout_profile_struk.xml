@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgColor2">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_light_background">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cardview_light_background"
+                    android:text="Ground Fight Training"
+                    android:textSize="@dimen/font_18"
+                    android:textColor="@color/textColorHome"
+                    android:padding="@dimen/padding_15"
+                    android:gravity="center"
+                    android:textAllCaps="true" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_5"
+                    android:background="@color/line2"
+                    android:layout_marginTop="2dp"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/pagerDetailServiceCheckoutProfileStruk"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_200"
+                        android:background="@color/colorPrimaryBlack"/>
+
+                    <com.viewpagerindicator.CirclePageIndicator
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/indicatorDetailServiceCheckoutProfileStruk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentBottom="true"
+                        android:padding="10dip"
+                        app:fillColor="@color/colorPrimaryWhite"
+                        app:strokeColor="@color/colorPrimaryWhite"
+                        app:snap="false"
+                        app:centered="false"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_15"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+
+            <LinearLayout
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_light_background">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Service Order"
+                    android:textSize="@dimen/font_10"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/line"
+                    android:gravity="center"
+                    android:textAllCaps="true" />
+
+                <TextView
+                    android:id="@+id/txtOrderCheckoutProfileStruk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="#A8BbG380"
+                    android:textSize="@dimen/font_16"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColorHome"
+                    android:paddingTop="@dimen/padding_5"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:gravity="center"
+                    android:textAllCaps="true" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_5"
+                    android:background="@color/line"
+                    android:layout_marginTop="2dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_15"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:layout_marginBottom="@dimen/margin_5"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <com.github.siyamed.shapeimageview.CircularImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/imgSmsCheckoutProfileStruk"
+                            android:layout_width="@dimen/width_60"
+                            android:layout_height="@dimen/height_60"
+                            android:src="@drawable/icon_sms"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:layout_centerHorizontal="true"
+                            app:siBorderWidth="0dp"
+                            app:siBorderColor="@color/textColorHome"
+                            app:siSquare="true"/>
+
+                        <com.github.siyamed.shapeimageview.CircularImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/imgProfileCheckoutProfileStruk"
+                            android:layout_width="@dimen/width_150"
+                            android:layout_height="@dimen/height_150"
+                            android:src="@drawable/chelsea_islan"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_10"
+                            android:layout_centerHorizontal="true"
+                            app:siBorderWidth="0dp"
+                            app:siBorderColor="@color/textColorHome"
+                            app:siSquare="true"/>
+
+                        <com.github.siyamed.shapeimageview.CircularImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/imgTeleponCheckoutProfileStruk"
+                            android:layout_width="@dimen/width_60"
+                            android:layout_height="@dimen/height_60"
+                            android:src="@drawable/icon_telepon"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:layout_centerHorizontal="true"
+                            app:siBorderWidth="0dp"
+                            app:siBorderColor="@color/textColorHome"
+                            app:siSquare="true"/>
+
+                    </LinearLayout>
+
+
+
+                    <TextView
+                        android:id="@+id/txtNameCheckoutProfileStruk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cynthia White"
+                        android:textColor="@color/textColorHome"
+                        android:gravity="center"
+                        android:textSize="@dimen/font_14"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtTanggalCheckoutProfileStruk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kamis, 25/12/2016"
+                        android:textColor="@color/colorPrimaryBlueLight"
+                        android:gravity="center"
+                        android:textSize="@dimen/font_14"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/margin_15"
+                        android:layout_marginBottom="@dimen/margin_15"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginRight="@dimen/margin_20">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Service Utama"
+                            android:textSize="@dimen/font_10"
+                            android:textColor="@color/colorPrimaryShadow"
+                            android:layout_marginBottom="2dp"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/line"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="2"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:layout_marginBottom="@dimen/margin_5">
+
+                            <TextView
+                                android:id="@+id/txtServisNamaCheckoutProfileStruk"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.1"
+                                android:text="Ground Fight Train"
+                                android:textColor="@color/colorPrimaryBlueLight"
+                                android:gravity="left"
+                                android:textSize="@dimen/font_12"
+                                android:textStyle="bold"
+                                android:layout_marginLeft="@dimen/margin_15"
+                                />
+
+                            <TextView
+                                android:id="@+id/txtHargaServisCheckoutProfileStruk"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.9"
+                                android:text="Rp. 10.000.000"
+                                android:textColor="@color/textColorHome"
+                                android:gravity="left"
+                                android:paddingLeft="@dimen/padding_10"
+                                android:textSize="@dimen/font_12"
+                                android:textStyle="bold"
+                                />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Informasi Permasalahan Beeper"
+                            android:textSize="@dimen/font_10"
+                            android:textColor="@color/colorPrimaryShadow"
+                            android:layout_marginTop="@dimen/margin_15"
+                            android:layout_marginBottom="2dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/line"/>
+
+                        <TextView
+                            android:id="@+id/txtInformasiPermasalahanBeeperCheckoutProfileStruk"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Saya mau belajar cara mempertahankan diri saya"
+                            android:textColor="@color/textColorHome"
+                            android:gravity="left"
+                            android:textSize="@dimen/font_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_marginBottom="@dimen/margin_10"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ExpandableListView
+                    android:id="@+id/expandableCheckoutProfileStruk"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_150"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_15"
+                    android:layout_marginTop="@dimen/margin_15"
+                    android:layout_marginBottom="@dimen/margin_15"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/line"
+                    android:layout_marginBottom="@dimen/margin_20"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ringkasan Transaksi"
+                    android:textSize="@dimen/font_14"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColorHome"
+                    android:paddingTop="@dimen/padding_5"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:layout_marginBottom="@dimen/margin_10"
+                    android:gravity="center"
+                    android:textAllCaps="true" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerViewCheckoutProfileStruk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_15"
+                    android:layout_marginBottom="@dimen/margin_60"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+

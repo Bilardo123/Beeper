@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryWhite" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_5"
+            android:background="@color/base30"
+            android:layout_marginTop="@dimen/margin_5"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="@dimen/margin_15">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.85"
+                android:text="Service ID"
+                android:gravity="left"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/textColorHome"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5" />
+
+            <TextView
+                android:id="@+id/txtServiceIDInfoMyService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.15"
+                android:text="#SBJ33890"
+                android:gravity="right"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/colorPrimaryBlackShadow"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/line2"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.85"
+                android:text="Service Created on"
+                android:gravity="left"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/textColorHome"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5" />
+
+            <TextView
+                android:id="@+id/txtServiceCreatedOnInfoMyService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.15"
+                android:text="19 January 2016"
+                android:gravity="right"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/colorPrimaryBlackShadow"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/line2"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.85"
+                android:text="Status"
+                android:gravity="left"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/textColorHome"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5" />
+
+            <TextView
+                android:id="@+id/txtStatusInfoMyService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.15"
+                android:text="Active"
+                android:gravity="right"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/colorPrimaryBlackShadow"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/line2"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.85"
+                android:text="Skills"
+                android:gravity="left"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/textColorHome"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5" />
+
+            <TextView
+                android:id="@+id/txtSkillsInfoMyService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.15"
+                android:text="Personal Trainer"
+                android:gravity="right"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/colorPrimaryBlackShadow"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/line2"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.85"
+                android:text="City"
+                android:gravity="left"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/textColorHome"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5" />
+
+            <TextView
+                android:id="@+id/txtCityInfoMyService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.15"
+                android:text="Jakarta"
+                android:gravity="right"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/colorPrimaryBlackShadow"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/line2"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.85"
+                android:text="Work Days"
+                android:gravity="left"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/textColorHome"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5" />
+
+            <TextView
+                android:id="@+id/txtWorkDaysInfoMyService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.15"
+                android:text="Work days"
+                android:gravity="right"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/colorPrimaryBlackShadow"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/line2"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.85"
+                android:text="Work Hours"
+                android:gravity="left"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/textColorHome"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5" />
+
+            <TextView
+                android:id="@+id/txtWorkHoursInfoMyService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.15"
+                android:text="22.00-01.00"
+                android:gravity="right"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/colorPrimaryBlackShadow"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/line2"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.85"
+                android:text="Price"
+                android:gravity="left"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/textColorHome"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5" />
+
+            <TextView
+                android:id="@+id/txtPriceInfoMyService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.15"
+                android:text="Rp. 210.000 / Hours"
+                android:gravity="right"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/colorPrimaryBlackShadow"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/line2"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.55"
+                android:text="Tags"
+                android:gravity="left"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/textColorHome"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5" />
+
+            <TextView
+                android:id="@+id/txtTags1InfoMyService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.45"
+                android:text="Workout, Train, Fit, Fitness,"
+                android:gravity="right"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/colorPrimaryBlackShadow"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/line2"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:gravity="left"
+                android:textSize="@dimen/font_16"
+                android:textColor="@color/textColorHome"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5" />
+
+            <TextView
+                android:id="@+id/txtTags2InfoMyService"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.75"
+                android:text="Muscle, Gym Trainfit, Training, Strength"
+                android:gravity="right"
+                android:textSize="@dimen/font_12"
+                android:textColor="@color/colorPrimaryBlackShadow"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_5"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/line2"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"/>
+
+        <TextView
+            android:id="@+id/txtDeskripsiInfoMyService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/info_service"
+            android:textSize="@dimen/font_12"
+            android:textColor="@color/textColorHome"
+            android:layout_marginTop="@dimen/margin_20"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginBottom="@dimen/margin_5" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service History"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryWhite"
+            android:textSize="@dimen/font_14"
+            android:background="@drawable/button_purple"
+            android:drawableRight="@drawable/icon_button_green"
+            android:paddingRight="@dimen/padding_5"
+            android:layout_marginTop="@dimen/margin_50"
+            android:elevation="2dp"
+            android:stateListAnimator="@drawable/button_shadow"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginBottom="@dimen/margin_70"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

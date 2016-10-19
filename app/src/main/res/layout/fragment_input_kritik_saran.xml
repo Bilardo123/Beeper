@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation="3dp">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryWhite">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_half_rounded"
+            android:text="Kritik dan Saran"
+            android:textSize="@dimen/font_22"
+            android:textColor="@color/textColorHome"
+            android:padding="@dimen/padding_10"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_5"
+            android:background="@color/line"
+            android:layout_marginTop="@dimen/margin_5"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bantu Kami Berkembang !"
+            android:textSize="@dimen/font_14"
+            android:textColor="@color/textColorHome"
+            android:padding="@dimen/padding_10"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kami dapat membantu anda \n dengan memberikan bantuan \n FAQs dan pembelajaran melalui \n halaman Sidebeep di Youtube. \n atau langsung menghubungi kami. "
+            android:textSize="@dimen/font_14"
+            android:textColor="@color/textColorHome"
+            android:padding="@dimen/padding_10"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/edittxtKritikdanSaranPengaturan"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_150"
+            android:textSize="@dimen/font_14"
+            android:hint="Sertakan kritik dan saran anda"
+            android:background="@drawable/edittext_rounded2"
+            android:textColor="@color/textColorHome"
+            android:textColorHint="@color/colorPrimaryGray"
+            android:gravity="center|top"
+            android:padding="@dimen/padding_5"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom">
+
+            <Button
+                android:id="@+id/btnHubungiSidebeepPengaturanInputKritikSaran"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_45"
+                android:text="Kirim"
+                android:background="@drawable/button_green"
+                android:textSize="@dimen/font_14"
+                android:layout_marginLeft="@dimen/margin_30"
+                android:layout_marginRight="@dimen/margin_30"
+                android:layout_marginTop="@dimen/margin_10"
+                android:textColor="@color/textColor"
+                android:textAllCaps="false"
+                android:paddingRight="5dp"
+                android:elevation="2dp"
+                android:stateListAnimator="@drawable/button_shadow"
+                android:drawableRight="@drawable/icon_button_white"/>
+
+            <TextView
+                android:id="@+id/txtVersionPengaturan4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/version_app"
+                android:textSize="@dimen/font_10"
+                android:textColor="@color/textColorHome"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/margin_15"
+                android:layout_marginLeft="@dimen/margin_30"
+                android:layout_marginRight="@dimen/margin_30"
+                android:layout_marginTop="@dimen/margin_20"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

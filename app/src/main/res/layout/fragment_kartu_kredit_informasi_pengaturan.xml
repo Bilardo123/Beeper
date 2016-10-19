@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/bgColor2">
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryWhiteGray">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/margin_15"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_15">
+
+                    <ImageView
+                        android:layout_width="@dimen/width_50"
+                        android:layout_height="@dimen/height_25"
+                        android:src="@drawable/icon_visa"
+                        android:layout_marginRight="@dimen/margin_5"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/width_50"
+                        android:layout_height="@dimen/height_25"
+                        android:src="@drawable/icon_mastercard"
+                        android:layout_marginLeft="@dimen/margin_5"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Informasi Kartu Kredit"
+                    android:textSize="@dimen/font_16"
+                    android:padding="@dimen/padding_5"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColorHome"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_15"
+                    android:gravity="center"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_200"
+                    android:layout_marginTop="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_25"
+                    android:layout_marginLeft="@dimen/margin_25">
+
+                    <ImageView
+                        android:id="@+id/imgBiruBackgroundKartuKreditInformasiPengaturan"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_200"
+                        android:src="@drawable/card"
+                        android:scaleType="fitXY"/>
+
+                    <ImageView
+                        android:id="@+id/imgVisaBackgroundKartuKreditInformasiPengaturan"
+                        android:layout_width="@dimen/width_80"
+                        android:layout_height="@dimen/width_25"
+                        android:src="@drawable/icon_visa_bg"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:layout_marginRight="@dimen/margin_20"/>
+
+                    <ImageView
+                        android:id="@+id/imgSidebeepKartuKreditInformasiPengaturan"
+                        android:layout_width="@dimen/width_30"
+                        android:layout_height="@dimen/height_50"
+                        android:src="@drawable/logo_green"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/margin_20"
+                        android:layout_marginBottom="@dimen/margin_10"/>
+
+                    <TextView
+                        android:id="@+id/txtNamaKartuKreditInformasiPengaturan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sumano"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/font_12"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:layout_marginLeft="@dimen/margin_25"
+                        android:layout_above="@+id/layoutKartuKreditInformasiPengaturan"/>
+                    
+                    <LinearLayout
+                        android:id="@+id/layoutKartuKreditInformasiPengaturan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginBottom="@dimen/margin_10"
+                        android:layout_marginRight="@dimen/margin_70"
+                        android:gravity="left|center">
+
+                        <TextView
+                            android:id="@+id/txtNoKartuKreditInformasiPengaturan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="31111xxxx0"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/font_16"
+                            android:padding="@dimen/padding_5"
+                            android:textColor="@color/colorPrimaryWhite"
+                            android:layout_marginRight="@dimen/margin_20"/>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/padding_5">
+
+                            <TextView
+                                android:id="@+id/txtKet1KartuKredit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Good"
+                                android:textSize="@dimen/font_8"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimaryWhite"/>
+
+                            <TextView
+                                android:id="@+id/txtKet2KartuKredit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Thru"
+                                android:textSize="@dimen/font_8"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimaryWhite"
+                                android:layout_below="@+id/txtKet1KartuKredit"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/padding_5"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txtKet3KartuKredit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Month/Year"
+                                android:textSize="@dimen/font_5"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimaryWhite"/>
+
+                            <TextView
+                                android:id="@+id/txtTanggalExpiredKartuKreditInformasiPengaturan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="11 / 18"
+                                android:textSize="@dimen/font_10"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimaryWhite"
+                                android:layout_below="@+id/txtKet3KartuKredit"/>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_15"
+                    android:layout_marginBottom="@dimen/margin_15">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hapus kartu kredit"
+                        android:textSize="@dimen/font_12"
+                        android:padding="@dimen/padding_5"
+                        android:textColor="@color/textColorHome"
+                        android:layout_marginRight="@dimen/margin_25"
+                        android:gravity="right"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/width_20"
+                        android:layout_height="@dimen/height_20"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:layout_marginRight="@dimen/margin_5"
+                        android:src="@drawable/delete_purple"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnTambahKartuKreditInformasiPengaturan"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_45"
+                    android:text="Tambah Kartu Kredit"
+                    android:background="@drawable/button_rounded_gray"
+                    android:textSize="@dimen/font_14"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+                    android:layout_marginBottom="@dimen/margin_20"
+                    android:textColor="@color/textColorHome"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:paddingLeft="@dimen/padding_15"
+                    android:paddingRight="@dimen/padding_20"
+                    android:elevation="2dp"
+                    android:stateListAnimator="@drawable/button_shadow"
+                    android:drawableLeft="@drawable/plus_purple"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_15"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryWhiteGray">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_200"
+                    android:layout_marginTop="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_25"
+                    android:layout_marginLeft="@dimen/margin_25">
+
+                    <ImageView
+                        android:id="@+id/imgBiruBackgroundKartuKreditInformasiPengaturan2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_200"
+                        android:src="@drawable/card"
+                        android:scaleType="fitXY"/>
+
+                    <ImageView
+                        android:id="@+id/imgVisaBackgroundKartuKreditInformasiPengaturan2"
+                        android:layout_width="@dimen/width_80"
+                        android:layout_height="@dimen/width_25"
+                        android:src="@drawable/icon_visa_bg"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:layout_marginRight="@dimen/margin_20"/>
+
+                    <ImageView
+                        android:id="@+id/imgSidebeepKartuKreditInformasiPengaturan2"
+                        android:layout_width="@dimen/width_30"
+                        android:layout_height="@dimen/height_50"
+                        android:src="@drawable/logo_green"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/margin_20"
+                        android:layout_marginBottom="@dimen/margin_10"/>
+
+                    <TextView
+                        android:id="@+id/txtNamaKartuKreditInformasiPengaturan2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sumano"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/font_12"
+                        android:textColor="@color/colorPrimaryWhite"
+                        android:layout_marginLeft="@dimen/margin_25"
+                        android:layout_above="@+id/layoutKartuKreditInformasiPengaturan2"/>
+
+                    <LinearLayout
+                        android:id="@+id/layoutKartuKreditInformasiPengaturan2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginBottom="@dimen/margin_10"
+                        android:layout_marginRight="@dimen/margin_70"
+                        android:gravity="left|center">
+
+                        <TextView
+                            android:id="@+id/txtNoKartuKreditInformasiPengaturan2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="31111xxxx0"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/font_16"
+                            android:padding="@dimen/padding_5"
+                            android:textColor="@color/colorPrimaryWhite"
+                            android:layout_marginRight="@dimen/margin_20"/>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/padding_5">
+
+                            <TextView
+                                android:id="@+id/txtKet1KartuKredit2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Good"
+                                android:textSize="@dimen/font_8"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimaryWhite"/>
+
+                            <TextView
+                                android:id="@+id/txtKet2KartuKredit2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Thru"
+                                android:textSize="@dimen/font_8"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimaryWhite"
+                                android:layout_below="@+id/txtKet1KartuKredit2"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/padding_5"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txtKet3KartuKredit2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Month/Year"
+                                android:textSize="@dimen/font_5"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimaryWhite"/>
+
+                            <TextView
+                                android:id="@+id/txtTanggalExpiredKartuKreditInformasiPengaturan2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="11 / 18"
+                                android:textSize="@dimen/font_10"
+                                android:textAllCaps="true"
+                                android:textColor="@color/colorPrimaryWhite"
+                                android:layout_below="@+id/txtKet3KartuKredit2"/>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_15"
+                    android:layout_marginBottom="@dimen/margin_15">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hapus kartu kredit"
+                        android:textSize="@dimen/font_12"
+                        android:padding="@dimen/padding_5"
+                        android:textColor="@color/textColorHome"
+                        android:layout_marginRight="@dimen/margin_25"
+                        android:gravity="right"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/width_20"
+                        android:layout_height="@dimen/height_20"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:layout_marginRight="@dimen/margin_5"
+                        android:src="@drawable/delete_purple"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,2 @@
+include ':app', ':sidebeeplibrary'
+include ':libs:ViewPagerIndicator-Library'

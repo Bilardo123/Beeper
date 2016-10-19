@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation="3dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryWhiteGray">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perubahan Alamat Rumah"
+            android:textSize="@dimen/font_22"
+            android:background="@color/colorPrimaryGray"
+            android:padding="@dimen/padding_10"
+            android:textColor="@color/textColorHome"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_5"
+            android:background="@color/line"
+            android:layout_marginTop="@dimen/margin_5"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edittxtAlamatRumahPengaturan"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_150"
+                    android:background="@drawable/edittext_rounded2"
+                    android:hint="Alamat Rumah"
+                    android:textSize="@dimen/font_16"
+                    android:textColor="@color/textColorHome"
+                    android:textColorHint="@color/colorPrimaryGray"
+                    android:padding="10dp"
+                    android:layout_marginTop="@dimen/margin_30"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_15"
+                    android:layout_marginBottom="@dimen/margin_15"
+                    android:gravity="left|top" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:gravity="bottom">
+
+                <Button
+                    android:id="@+id/btnKonfirmasiPengaturanAlamatRumah"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_45"
+                    android:text="Konfirmasi"
+                    android:background="@drawable/button_green"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/font_16"
+                    android:layout_marginLeft="@dimen/margin_15"
+                    android:layout_marginRight="@dimen/margin_15"
+                    android:layout_marginBottom="@dimen/margin_30"
+                    android:textAllCaps="false"
+                    android:paddingRight="5dp"
+                    android:elevation="2dp"
+                    android:stateListAnimator="@drawable/button_shadow"
+                    android:drawableRight="@drawable/icon_button_white"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

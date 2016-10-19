@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:background="@color/colorPrimaryWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryWhite"
+            android:layout_marginTop="@dimen/margin_15"
+            android:gravity="center"
+            >
+
+            <com.github.siyamed.shapeimageview.CircularImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imgProfileSide"
+                android:layout_width="@dimen/width_100"
+                android:layout_height="@dimen/height_100"
+                android:layout_marginTop="@dimen/margin_30"
+                android:src="@drawable/chelsea_islan"
+                app:siBorderWidth="0dp"
+                app:siBorderColor="@color/textColorHome"
+                app:siSquare="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="bottom"
+                android:layout_marginBottom="@dimen/margin_5">
+
+                <TextView
+                    android:id="@+id/txtKetSide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Sidebeep Kredit"
+                    android:textColor="@color/textColorHome"
+                    android:textSize="@dimen/font_14"
+                    />
+
+                <TextView
+                    android:id="@+id/txtSaldoSide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Rp . 300.000"
+                    android:textColor="@color/textColorHome"
+                    android:textSize="@dimen/font_24"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.3"
+            android:background="@color/bgColor2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/layoutCalendarSide"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txtCalendarSide"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Jadwal"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/font_14"
+                            android:textStyle="bold"
+                            android:padding="@dimen/padding_10"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iconCalendarSide"
+                            android:layout_width="@dimen/width_20"
+                            android:layout_height="@dimen/height_20"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:src="@drawable/calendar_white_unclicked"
+                            android:layout_centerInParent="true"
+                            android:layout_alignParentLeft="true"/>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutSideLine2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.35"></RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.3">
+
+                            <View
+                                android:id="@+id/lineSide1"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/colorPrimaryWhite"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.35"></RelativeLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/layoutSideLineInboxSide"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txtInboxSide"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Inbox"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/font_14"
+                            android:textStyle="bold"
+                            android:padding="@dimen/padding_10"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iconInboxSide"
+                            android:layout_width="@dimen/width_20"
+                            android:layout_height="@dimen/height_20"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:src="@drawable/icon_marketing"
+                            android:layout_centerInParent="true"
+                            android:layout_alignParentLeft="true"/>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutSideLine4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.35"></RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.3">
+
+                            <View
+                                android:id="@+id/lineSide2"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/colorPrimaryWhite"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.35"></RelativeLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/layoutUndangTemanSide"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txtUndangTemanSide"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Undang Teman"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/font_14"
+                            android:textStyle="bold"
+                            android:padding="@dimen/padding_10"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iconUndangTemanSide"
+                            android:layout_width="@dimen/width_20"
+                            android:layout_height="@dimen/height_20"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:src="@drawable/promo_antar_teman"
+                            android:layout_centerInParent="true"
+                            android:layout_alignParentLeft="true"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center|bottom"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/layoutSideLineBottomPengaturan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:id="@+id/txtPengaturanSide"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Pengaturan"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/font_14"
+                            android:textStyle="bold"
+                            android:padding="@dimen/padding_10"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iconPengaturanSide"
+                            android:layout_width="@dimen/width_20"
+                            android:layout_height="@dimen/height_20"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:layout_centerInParent="true"
+                            android:layout_alignParentLeft="true"
+                            android:src="@drawable/setting_icon"/>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutSideLineBottom2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.35"></RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.3">
+
+                            <View
+                                android:id="@+id/lineSideBottom1"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/colorPrimaryWhite"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.35"></RelativeLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/layoutSideLineBottomFeedBackSide"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:id="@+id/txtFeedBackSide"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Kritik dan Saran"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/font_14"
+                            android:textStyle="bold"
+                            android:padding="@dimen/padding_10"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iconFeedBackSide"
+                            android:layout_width="@dimen/width_20"
+                            android:layout_height="@dimen/height_20"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:layout_centerInParent="true"
+                            android:layout_alignParentLeft="true"
+                            android:src="@drawable/feedback_icon"/>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutSideLineBottom4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.35"></RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.3">
+
+                            <View
+                                android:id="@+id/lineSideBottom2"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/colorPrimaryWhite"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.35"></RelativeLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/layoutSideLineBottomNewSide"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:id="@+id/txtNewsSide"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Berita"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/font_14"
+                            android:textStyle="bold"
+                            android:padding="@dimen/padding_10"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iconNewsSide"
+                            android:layout_width="@dimen/width_20"
+                            android:layout_height="@dimen/height_20"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:layout_centerInParent="true"
+                            android:layout_alignParentLeft="true"
+                            android:src="@drawable/news_icon"/>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutSideLineBottom6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.35"></RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.3">
+
+                            <View
+                                android:id="@+id/lineSideBottom3"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/colorPrimaryWhite"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.35"></RelativeLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/layoutSideLineBottomHelpSide"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_marginBottom="@dimen/margin_5">
+
+                        <TextView
+                            android:id="@+id/txtHelpSide"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Bantuan"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/font_14"
+                            android:textStyle="bold"
+                            android:padding="@dimen/padding_10"
+
+                            />
+
+                        <ImageView
+                            android:id="@+id/iconHelpSide"
+                            android:layout_width="@dimen/width_20"
+                            android:layout_height="@dimen/height_20"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:layout_centerInParent="true"
+                            android:layout_alignParentLeft="true"
+                            android:src="@drawable/help"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
