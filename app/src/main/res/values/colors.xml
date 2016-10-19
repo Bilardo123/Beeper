@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryRed">#FF0000</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryWhite">#FFFFFF</color>
+    <color name="colorPrimaryBlack">#000000</color>
+    <color name="colorPrimaryWhiteGray">#FAFAFA</color>
+    <color name="colorPrimaryBlackShadow">#848484</color>
+    <color name="colorPrimaryBlueLight">#5DB2F9</color>
+    <color name="colorPrimaryBlue">#419BF9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryGray">#D7D7D7</color>
+    <color name="colorPrimaryGrayLight">#E5E5E5</color>
+    <color name="colorPrimaryShadow">#AAAAAA</color>
+    <color name="colorError">#fd0a0a</color>
+
+    <color name="bgColor">#20E16D</color>
+    <color name="bgColor2">#404269</color>
+    <color name="bgColor3">#0E6531</color>
+    <color name="buttonColor">#efefef</color>
+    <color name="bgColorHeader">#595DA1</color>
+    <color name="viewHomeList">#404269</color>
+    <color name="textColor">#ffffff</color>
+    <color name="textColor2">#666666</color>
+    <color name="textColor3">#999999</color>
+    <color name="textColorHome">#404269</color>
+    <color name="edittextColor">#B9B9B9</color>
+    <color name="line">#D7D7D7</color>
+    <color name="line2">#969696</color>
+    <color name="list_row_notif_gray">#e5e5e5</color>
+    <color name="list_row_notif_white">#fafafa</color>
+
+    <color name="button_background_color">#20E16D</color>
+    <color name="button_background_color2">#EFEFEF</color>
+    <color name="button_background_color_clicked">#7AEEA6</color>
+
+    <color name="tab_info">#D8D8D8</color>
+    <color name="tab_additional">#404269</color>
+    <color name="tab_review">#2D2F4D</color>
+    <color name="tab_portofolio">#1C1D31</color>
+    <color name="tab_faq">#000000</color>
+
+    <color name="tab_gray">#D5D5D5</color>
+    <color name="tab_waiting">#000000</color>
+    <color name="tab_confirmed">#000000</color>
+    <color name="tab_closed_cancel">#F94141</color>
+    <color name="tab_closed_finish">#20E16D</color>
+</resources>
